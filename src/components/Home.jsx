@@ -7,7 +7,7 @@ const Home = () => {
     <section className="bg-[#fee2e6] h-screen flex items-center overflow-hidden">
       <div className="max-w-7xl mx-auto w-full flex items-center px-0 md:px-12">
         {/* Left Image */}
-        <div className="flex-shrink-0 h-full w-1/2 md:w-[80%]">
+        <div className="flex-shrink-0 h-full w-1/2 -ml-40 md:w-[80%]">
           <img
             src={heroImg}
             alt="FlauntIt Model"
@@ -16,10 +16,10 @@ const Home = () => {
         </div>
 
         {/* Right Text */}
-        <div className="flex-1 text-center md:text-left pl-8 md:pl-16">
+        <div className="flex-1 text-center md:text-left pl-8 -ml-8 md:pl-16">
           {/* Heading */}
           <h1
-            className="text-6xl md:text-7xl font-bold italic leading-[1.1]"
+            className="text-8xl md:text-10xl font-bold italic leading-[1.1] "
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             ELEVATE <br /> YOUR
